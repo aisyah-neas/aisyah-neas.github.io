@@ -79,6 +79,9 @@ ol {
 -----------------------*/
 .section-title {
   margin-bottom: 50px;
+  position: relative;
+  top: 10px
+  ;
 }
 .section-title.center-title {
   text-align: center;
@@ -277,6 +280,10 @@ ol {
 
 .header__logo {
   padding: 30px 0;
+  width: 40px;
+}
+.header__logo img {
+  border-radius: 20px;
 }
 .header__logo a {
   display: inline-block;
@@ -540,7 +547,14 @@ ol {
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
 }
-
+.services__item__icon i{
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  left: 3px;
+  
+}
 /*---------------------
   Services Page
 -----------------------*/
@@ -558,10 +572,11 @@ ol {
 
 .blog__item.latest__item {
   margin-bottom: 0;
+  height: 320px;
 }
 .blog__item.latest__item:hover {
   border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
+  background: url(../img/gallery/history-4.jpg);
   background-size: cover;
 }
 
@@ -1458,6 +1473,7 @@ ol {
 
   .header .container {
     position: relative;
+    
   }
 
   .header__nav__option {
@@ -1635,7 +1651,7 @@ body.modal-open {
   transition: 300ms; 
 }
 .scroll-top i:hover {
-  color: #100028;
+  color: #673ab7;
 }
 
 .my-float {
@@ -1647,4 +1663,7 @@ body.modal-open {
 .float:hover {
   color: black;
   text-decoration: none;
+}
+ul li.active {
+  border-bottom: 2px solid #f8f4f400; /* Ganti dengan warna yang Anda inginkan */
 }
