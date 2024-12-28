@@ -80,8 +80,7 @@ ol {
 .section-title {
   margin-bottom: 50px;
   position: relative;
-  top: 10px
-  ;
+  top: 10px;
 }
 .section-title.center-title {
   text-align: center;
@@ -475,13 +474,13 @@ ol {
 }
 .hero__text h2 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 70px;
+  /* line-height: 70px; */
   text-transform: uppercase;
   margin-bottom: 38px;
   position: relative;
-  top: 100px;
+  top: 90px;
   opacity: 0;
   -webkit-transition: all, 0.5s;
   -o-transition: all, 0.5s;
@@ -547,13 +546,12 @@ ol {
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
 }
-.services__item__icon i{
+.services__item__icon i {
   color: white;
   font-size: 30px;
   position: relative;
   top: 5px;
   left: 3px;
-  
 }
 /*---------------------
   Services Page
@@ -603,6 +601,13 @@ ol {
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
+.teks-gallery .btn {
+  color: white; /* Warna teks tombol */
+}
+.teks-gallery .btn:hover {
+  color: #5fb2d3; /* Warna teks tombol saat hover, opsional */
+}
+
 :root {
   --default-color: #fafafa;
   --background-color: #100028;
@@ -618,6 +623,7 @@ ol {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  /* display: none; */
 }
 
 .gallery .gallery-item img {
@@ -1190,6 +1196,11 @@ ol {
 .input__list input:placeholder {
   color: #adadad;
 }
+/* FOOTER SOSMED */
+.sosmed {
+  display: flex;
+  justify-content: center;
+}
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1200px) {
@@ -1473,7 +1484,6 @@ ol {
 
   .header .container {
     position: relative;
-    
   }
 
   .header__nav__option {
@@ -1648,7 +1658,7 @@ body.modal-open {
   visibility: visible; /* Ikon terlihat */
 }
 .scroll-top i:hover {
-  transition: 300ms; 
+  transition: 300ms;
 }
 .scroll-top i:hover {
   color: #673ab7;
